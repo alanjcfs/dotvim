@@ -12,7 +12,8 @@ endif
 set nocompatible
 
 " Set up Vundle/Plugin
-set rtp+=~/.vim/bundle/Vundle.vim
+" set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/VundleTest
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
