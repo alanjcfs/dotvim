@@ -15,7 +15,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'FelikZ/ctrlp-py-matcher'
 Plug 'JazzCore/ctrlp-cmatcher'
 Plug 'mileszs/ack.vim'
-Plug 'Valloric/YouCompleteMe' " { 'do': './install.py --clang-completer --tern-completer --racer-completer' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --clang-completer --tern-completer --racer-completer' }
 
 " Syntax
 Plug 'avh4/elm-format'
@@ -31,6 +31,7 @@ Plug 'reedes/vim-pencil'
 Plug 'tpope/vim-markdown'
 Plug 'nelstrom/vim-markdown-folding'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " Code Editing
 Plug 'honza/vim-snippets'
@@ -171,6 +172,11 @@ let g:NERDTrimTrailingWhitespace = 1
 let g:syntastic_javascript_checks = ['jshint']
 let g:syntastic_filetype_map = { 'handlebars.html': 'handlebars' }
 """"""""""""""""""""""""""""""""""""""""""""""""""
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Vim Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='base16'
 
 " let g:enable_numbers = 0
 
